@@ -1,0 +1,18 @@
+[2022-11-08T10:02:24.095] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-08T10:02:26.438] [INFO] default - /news/getNews
+[2022-11-08T10:02:26.439] [DEBUG] default - {} {}
+[2022-11-08T10:02:44.281] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-08T10:02:46.556] [INFO] default - /news/getNews
+[2022-11-08T10:02:46.557] [DEBUG] default - {} {}
+[2022-11-08T10:02:53.824] [INFO] default - /
+[2022-11-08T10:02:53.824] [DEBUG] default - {} {}
+[2022-11-08T10:07:34.080] [INFO] default - /news/getNews
+[2022-11-08T10:07:34.081] [DEBUG] default - {} {}
+[2022-11-08T10:07:38.114] [INFO] default - /news/getNews
+[2022-11-08T10:07:38.114] [DEBUG] default - {} {}
+[2022-11-08T10:07:50.857] [INFO] default - /news/getNews
+[2022-11-08T10:07:50.857] [DEBUG] default - {} {}
+[2022-11-08T10:07:53.050] [INFO] default - /
+[2022-11-08T10:07:53.050] [DEBUG] default - {} {}
+[2022-11-08T10:07:55.140] [INFO] default - /news/getNews
+[2022-11-08T10:07:55.140] [DEBUG] default - {} {}

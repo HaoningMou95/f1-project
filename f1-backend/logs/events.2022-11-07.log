@@ -1,0 +1,74 @@
+[2022-11-07T22:18:50.884] [DEBUG] default - /
+[2022-11-07T22:18:50.885] [DEBUG] default - {} {}
+[2022-11-07T22:18:54.778] [DEBUG] default - /
+[2022-11-07T22:18:54.778] [DEBUG] default - {} {}
+[2022-11-07T22:19:11.364] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:19:16.464] [DEBUG] default - /
+[2022-11-07T22:19:16.464] [DEBUG] default - {} {}
+[2022-11-07T22:19:17.951] [DEBUG] default - /
+[2022-11-07T22:19:17.951] [DEBUG] default - {} {}
+[2022-11-07T22:19:18.727] [DEBUG] default - /
+[2022-11-07T22:19:18.727] [DEBUG] default - {} {}
+[2022-11-07T22:19:30.929] [DEBUG] default - /
+[2022-11-07T22:19:30.929] [DEBUG] default - {} {}
+[2022-11-07T22:19:37.137] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:19:39.298] [DEBUG] default - /
+[2022-11-07T22:20:07.189] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:20:35.796] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:20:38.103] [INFO] default - /
+[2022-11-07T22:20:44.957] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:20:52.195] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:21:04.884] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:21:06.945] [INFO] default - /
+[2022-11-07T22:23:12.774] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:23:19.785] [INFO] default - /getNews
+[2022-11-07T22:23:19.785] [DEBUG] default - {} {}
+[2022-11-07T22:23:49.275] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:23:52.326] [INFO] default - /getNews
+[2022-11-07T22:23:52.326] [DEBUG] default - {} {}
+[2022-11-07T22:23:54.887] [INFO] default - /getNews
+[2022-11-07T22:23:54.887] [DEBUG] default - {} {}
+[2022-11-07T22:25:29.053] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:25:32.524] [INFO] default - /getNews
+[2022-11-07T22:25:32.524] [DEBUG] default - {} {}
+[2022-11-07T22:25:46.821] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:25:48.495] [INFO] default - /getNews
+[2022-11-07T22:25:48.495] [DEBUG] default - {} {}
+[2022-11-07T22:25:50.364] [INFO] default - /getNews
+[2022-11-07T22:25:50.364] [DEBUG] default - {} {}
+[2022-11-07T22:25:51.313] [INFO] default - /getNews
+[2022-11-07T22:25:51.313] [DEBUG] default - {} {}
+[2022-11-07T22:25:52.144] [INFO] default - /getNews
+[2022-11-07T22:25:52.144] [DEBUG] default - {} {}
+[2022-11-07T22:26:08.142] [INFO] default - /getNews
+[2022-11-07T22:26:08.142] [DEBUG] default - {} {}
+[2022-11-07T22:27:23.718] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:27:26.627] [INFO] default - /getNews
+[2022-11-07T22:27:26.627] [DEBUG] default - {} {}
+[2022-11-07T22:27:57.521] [INFO] default - /getNews
+[2022-11-07T22:27:57.521] [DEBUG] default - {} {}
+[2022-11-07T22:28:01.773] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:28:03.897] [INFO] default - /getNews
+[2022-11-07T22:28:03.897] [DEBUG] default - {} {}
+[2022-11-07T22:29:31.376] [INFO] default - /news/getNews
+[2022-11-07T22:29:31.376] [DEBUG] default - {} {}
+[2022-11-07T22:30:25.193] [INFO] default - /news/getNews
+[2022-11-07T22:30:25.193] [DEBUG] default - {} {}
+[2022-11-07T22:30:38.778] [INFO] default - /news/getNews
+[2022-11-07T22:30:38.778] [DEBUG] default - {} {}
+[2022-11-07T22:33:29.274] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:33:32.359] [INFO] default - /news/getNews
+[2022-11-07T22:33:32.359] [DEBUG] default - {} {}
+[2022-11-07T22:50:58.710] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:51:01.795] [INFO] default - /news/getNews
+[2022-11-07T22:51:01.795] [DEBUG] default - {} {}
+[2022-11-07T22:55:20.203] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:55:23.663] [INFO] default - /news/getNews
+[2022-11-07T22:55:23.663] [DEBUG] default - {} {}
+[2022-11-07T22:56:01.093] [INFO] default - Server runs as test mode in port: 9100
+[2022-11-07T22:56:03.147] [INFO] default - /news/getNews
+[2022-11-07T22:56:03.147] [DEBUG] default - {} {}
+[2022-11-07T22:57:56.957] [INFO] default - /news/getNews
+[2022-11-07T22:57:56.957] [DEBUG] default - {} {}
+[2022-11-07T22:57:57.078] [INFO] default - /favicon.ico
+[2022-11-07T22:57:57.078] [DEBUG] default - {} {}
