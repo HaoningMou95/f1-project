@@ -1,11 +1,11 @@
 {
   "env": "test",
   "host": "0.0.0.0",
-  "port": 8080,
+  "port": 8081,
   "mysql": {
     "host": "127.0.0.1",
     "user": "root",
-    "password": "Pass@lifepay",
+    "password": "950119",
     "database": "f1_project"
   }
 }
