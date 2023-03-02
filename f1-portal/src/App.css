@@ -1,40 +1,30 @@
-.App {
-  text-align: center;
-  justify-content: center;
-  width: 100%;
+@font-face {
+  font-family: 'F1';
+  src: local('F1'), url('./fonts//Formula1-Bold_web_0.ttf') format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: 'F1';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 15px;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.item {
+  min-height: 300px;
+  background-color: #f5c096;
+}
+
+.grid-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: #669288;
+  width: 95%;
+  margin: 0 auto;
 }

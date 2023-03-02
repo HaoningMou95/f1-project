@@ -5,7 +5,7 @@
   "mysql": {
     "host": "127.0.0.1",
     "user": "root",
-    "password": "950119",
+    "password": "950119mu",
     "database": "f1_project"
   }
 }

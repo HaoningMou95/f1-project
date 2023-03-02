@@ -1,10 +1,10 @@
 var express = require('express')
 var router = express.Router()
-const newsService = require('../service/newsService')
+const scheduleService = require('../service/scheduleService')
 
 /* GET get news list. */
-router.get('/getNews', async (req, res, next) => {
-  const result = await newsService.getNewList()
+router.get('/getSchedule', async (req, res, next) => {
+  const result = await scheduleService.getFullSchedule()
   console.log('result'.result)
   
 

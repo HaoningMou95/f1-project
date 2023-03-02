@@ -5,6 +5,7 @@ const config = require('config')
 const logger = require('./util/logger')
 const homepage = require('./routes/index')
 const news = require('./routes/controller/newsController')
+const schedule = require('./routes/controller/scheduleController')
 
 const startServer = (host, port) => {
   const app = express()
@@ -21,6 +22,7 @@ const startServer = (host, port) => {
   // routers
   app.use('/', homepage.router)
   app.use('/news', news.router)
+  app.use('/schedule', schedule.router)
 
   app.listen(port, host, () => {
     // logger.info(`Server runs as ${config.env} mode in port: ${port}`)

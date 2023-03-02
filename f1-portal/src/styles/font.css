@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'F1Font';
+    src: url('../fonts/Formula1-Bold_web_0.ttf') format('truetype'),
+         url('../fonts/Formula1-Regular_web_0.ttf') format('truetype'),
+         url('../fonts/Formula1-Wide_web_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
