@@ -8,7 +8,7 @@ const CountDownTimer = () => {
   const [minutes, setMinutes] = useState(0)
   const [seconds, setSeconds] = useState(0)
 
-  const deadline = '2023-03-30T08:00:00'
+  const deadline = '06/Mar/2023 02:00'
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.parse(new Date())

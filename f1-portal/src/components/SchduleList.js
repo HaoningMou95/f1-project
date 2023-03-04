@@ -46,7 +46,7 @@ const ScheduleList = () => {
             <ListItemText
               primary={
                 <Typography variant='h6' color='white'>
-                  {dayjs(item.races_sessions_gp).tz("Australia/Melbourne").format("DD/MM/YYYY HH:mm")}(MEL Time)
+                  {dayjs(item.races_sessions_gp).tz("Australia/Melbourne").format("DD/MMM/YYYY HH:mm")}(MEL Time)
                 </Typography>
               }
               secondary={
