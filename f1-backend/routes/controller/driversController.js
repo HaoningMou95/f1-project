@@ -1,10 +1,10 @@
 var express = require('express')
 var router = express.Router()
-const newsService = require('../service/newsService')
+const driverService = require('../service/driverService')
 
 /* GET get news list. */
-router.get('/getNews', async (req, res, next) => {
-  const result = await newsService.getNewList()
+router.get('/getDriver', async (req, res, next) => {
+  const result = await driverService.getDriverList()
   console.log('result'.result)
   
 
