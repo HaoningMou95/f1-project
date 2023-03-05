@@ -5,11 +5,15 @@ const driverService = require('../service/driverService')
 /* GET get news list. */
 router.get('/getDriver', async (req, res, next) => {
   const result = await driverService.getDriverList()
-  console.log('result'.result)
-  
-
+  console.log(result)
   return res.send(result)
-  // res.render('index', { title: 'Express' })
+})
+
+router.get('/getDriver/:id', async (req, res, next) => {
+  console.log(req.params.id)
+  const result = await driverService.getDriverById(req)
+  console.log(result)
+  return res.send(result)
 })
 
 module.exports = { router }

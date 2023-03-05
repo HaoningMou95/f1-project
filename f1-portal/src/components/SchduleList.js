@@ -1,6 +1,5 @@
 import { List, ListItem, ListItemAvatar, Avatar, ListItemText, Typography, createTheme, ThemeProvider, Collapse, ListItemButton } from '@mui/material'
 import ScheduleIcon from '@mui/icons-material/Schedule'
-import * as React from 'react'
 import { useCallback, useEffect, useState } from 'react'
 import { getSchedule } from '../api/getData'
 import dayjs from 'dayjs'
@@ -8,9 +7,10 @@ import dayjsutc from "dayjs/plugin/utc";
 import dayjstimezone from "dayjs/plugin/timezone"
 
 const ScheduleList = () => {
-  const [data, setData] = useState([])
   dayjs.extend(dayjsutc);
 	dayjs.extend(dayjstimezone);
+
+  const [data, setData] = useState([])
   
   const fetchData = useCallback(async () => {
     const result = await getSchedule()
@@ -21,7 +21,7 @@ const ScheduleList = () => {
   useEffect(() => {
     fetchData()
   }, [])
-  const [open, setOpen] = React.useState(true)
+  const [open, setOpen] = useState(true)
 
   const handleClick = () => {
     setOpen(!open)

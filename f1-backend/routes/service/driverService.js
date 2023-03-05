@@ -5,4 +5,12 @@ const getDriverList = async () => {
   return result
 }
 
-module.exports = { getDriverList }
+const getDriverById = async (req) => {
+  const { id } = req.params
+  const result = await driverStorage.findDriverById(id)
+  return result
+}
+
+
+
+module.exports = { getDriverList, getDriverById }
