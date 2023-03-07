@@ -4,44 +4,50 @@ import { getSchedule } from '../api/getData'
 
 const CountDownTimer = () => {
   const [days, setDays] = useState(0)
-const [hours, setHours] = useState(0)
-const [minutes, setMinutes] = useState(0)
-const [seconds, setSeconds] = useState(0)
+  const [hours, setHours] = useState(0)
+  const [minutes, setMinutes] = useState(0)
+  const [seconds, setSeconds] = useState(0)
 
-const [data, setData] = useState([])
+  const [data, setData] = useState([])
+  let deadline = null
 
-
-const fetchData = useCallback(async () => {
-  try {
-    const result = await getSchedule()
-    setData(result)
-  } catch (error) {
-    console.error(error)
+  const fetchData = async () => {
+    try {
+      const result = await getSchedule()
+      setData(result)
+    } catch (error) {
+      console.error(error)
+    }
   }
-}, [setData])
 
-useEffect(() => {
-  fetchData()
-  const interval = setInterval(() => getTime(), 1000)
-  return () => clearInterval(interval)
-}, [])
+  useEffect(() => {
+    fetchData()
+  }, [])
 
-const now = new Date()
-const futureDate = data.filter(item => new Date(item.races_sessions_gp) > now)
-const deadline = futureDate[0] ? futureDate[0].races_sessions_gp : null
-console.log('deadline', deadline)
+  useEffect(() => {
+    setNextEvent()
+  }, [data])
 
-const getTime = () => {
-  if (deadline) {
-    const time = Date.parse(deadline) - Date.parse(new Date())
-    console.log('time ', time)
-    setDays(Math.floor(time / (1000 * 60 * 60 * 24)))
-    setHours(Math.floor((time / (1000 * 60 * 60)) % 24))
-    setMinutes(Math.floor((time / 1000 / 60) % 60))
-    setSeconds(Math.floor((time / 1000) % 60))
+  useEffect(() => {
+    const interval = setInterval(() => getTime(), 1000)
+    return () => clearInterval(interval)
+  }, [data])
+
+  const setNextEvent = () => {
+    const now = new Date()
+    const futureDate = data.filter((item) => new Date(item.races_sessions_gp) > now)
+    deadline = futureDate[0] ? futureDate[0].races_sessions_gp : null
   }
-}
 
+  const getTime = () => {
+    if (deadline) {
+      const time = Date.parse(deadline) - Date.parse(new Date())
+      setDays(Math.floor(time / (1000 * 60 * 60 * 24)))
+      setHours(Math.floor((time / (1000 * 60 * 60)) % 24))
+      setMinutes(Math.floor((time / 1000 / 60) % 60))
+      setSeconds(Math.floor((time / 1000) % 60))
+    }
+  }
 
   const theme = createTheme({
     typography: {
