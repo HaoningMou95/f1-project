@@ -25,14 +25,14 @@ const pages = [
     name: 'Drivers',
     link: '/drivers'
   },
-  {
-    name: 'Circuit',
-    link: '/circuits'
-  },
-  {
-    name: 'Constructor',
-    link: '/constructors'
-  }
+  // {
+  //   name: 'Circuit',
+  //   link: '/circuits'
+  // },
+  // {
+  //   name: 'Constructor',
+  //   link: '/constructors'
+  // }
 ]
 
 function ResponsiveAppBar() {
